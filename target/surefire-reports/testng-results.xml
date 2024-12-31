@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="14" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-30T21:45:13 IST" name="Suite" finished-at="2024-12-30T21:45:29 IST" duration-ms="16164">
+    <groups>
+    </groups>
+    <test started-at="2024-12-30T21:45:13 IST" name="Test" finished-at="2024-12-30T21:45:29 IST" duration-ms="16164">
+      <class name="tests.LoginTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:10 IST" name="setUp" finished-at="2024-12-30T21:45:13 IST" duration-ms="3144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initializePageObjectClasses()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:13 IST" name="initializePageObjectClasses" finished-at="2024-12-30T21:45:13 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjectClasses -->
+        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:14 IST" name="navigateToLoginPage" finished-at="2024-12-30T21:45:17 IST" duration-ms="2128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLoginPage -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:17 IST" name="loginTest" data-provider="loginData" finished-at="2024-12-30T21:45:17 IST" duration-ms="662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:18 IST" name="navigateToLoginPage" finished-at="2024-12-30T21:45:18 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLoginPage -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:18 IST" name="loginTest" data-provider="loginData" finished-at="2024-12-30T21:45:18 IST" duration-ms="597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:18 IST" name="navigateToLoginPage" finished-at="2024-12-30T21:45:19 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLoginPage -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:19 IST" name="loginTest" data-provider="loginData" finished-at="2024-12-30T21:45:19 IST" duration-ms="564" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong_password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:19 IST" name="navigateToLoginPage" finished-at="2024-12-30T21:45:19 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLoginPage -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:19 IST" name="loginTest" data-provider="loginData" finished-at="2024-12-30T21:45:20 IST" duration-ms="750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:20 IST" name="navigateToLoginPage" finished-at="2024-12-30T21:45:20 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLoginPage -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:20 IST" name="loginTest" data-provider="loginData" finished-at="2024-12-30T21:45:21 IST" duration-ms="632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:21 IST" name="navigateToLoginPage" finished-at="2024-12-30T21:45:21 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLoginPage -->
+        <test-method signature="positiveLoginTestWithLocalStorageCheck()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:21 IST" name="positiveLoginTestWithLocalStorageCheck" finished-at="2024-12-30T21:45:22 IST" duration-ms="864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLoginTestWithLocalStorageCheck -->
+        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:22 IST" name="navigateToLoginPage" finished-at="2024-12-30T21:45:22 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLoginPage -->
+        <test-method signature="validateSessionUsernameAfterLogin()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:22 IST" name="validateSessionUsernameAfterLogin" finished-at="2024-12-30T21:45:23 IST" duration-ms="578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSessionUsernameAfterLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:29 IST" name="tearDown" finished-at="2024-12-30T21:45:29 IST" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTests -->
+      <class name="tests.HomePageTests">
+        <test-method is-config="true" signature="initializePageObjectClasses()[pri:0, instance:tests.HomePageTests@5ffead27]" started-at="2024-12-30T21:45:23 IST" name="initializePageObjectClasses" finished-at="2024-12-30T21:45:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObjectClasses -->
+        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.HomePageTests@5ffead27]" started-at="2024-12-30T21:45:23 IST" name="navigateToLoginPage" finished-at="2024-12-30T21:45:23 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLoginPage -->
+        <test-method signature="addItemToCart()[pri:0, instance:tests.HomePageTests@5ffead27]" started-at="2024-12-30T21:45:23 IST" name="addItemToCart" finished-at="2024-12-30T21:45:24 IST" duration-ms="965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemToCart -->
+        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.HomePageTests@5ffead27]" started-at="2024-12-30T21:45:24 IST" name="navigateToLoginPage" finished-at="2024-12-30T21:45:24 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLoginPage -->
+        <test-method signature="removeItemFromCart()[pri:0, instance:tests.HomePageTests@5ffead27]" started-at="2024-12-30T21:45:24 IST" name="removeItemFromCart" finished-at="2024-12-30T21:45:26 IST" duration-ms="2155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeItemFromCart -->
+        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.HomePageTests@5ffead27]" started-at="2024-12-30T21:45:27 IST" name="navigateToLoginPage" finished-at="2024-12-30T21:45:27 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLoginPage -->
+        <test-method signature="verifyHamburgerMenuItems()[pri:0, instance:tests.HomePageTests@5ffead27]" started-at="2024-12-30T21:45:27 IST" name="verifyHamburgerMenuItems" finished-at="2024-12-30T21:45:29 IST" duration-ms="2177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHamburgerMenuItems -->
+      </class> <!-- tests.HomePageTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
