@@ -8,13 +8,26 @@
     <classes>
       <class name="tests.HomePageTests">
         <methods>
-          <include name="initializeObjectClasses"/>
           <include name="tearDown"/>
+          <include name="addItemToCart"/>
+          <include name="removeItemFromCart"/>
           <include name="setUp"/>
           <include name="verifyHamburgerMenuItems"/>
           <include name="navigateToLoginPage"/>
+          <include name="initializePageObjectClasses"/>
         </methods>
       </class> <!-- tests.HomePageTests -->
+      <class name="tests.LoginTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validateSessionUsernameAfterLogin"/>
+          <include name="setUp"/>
+          <include name="positiveLoginTestWithLocalStorageCheck"/>
+          <include name="loginTest"/>
+          <include name="navigateToLoginPage"/>
+          <include name="initializePageObjectClasses"/>
+        </methods>
+      </class> <!-- tests.LoginTests -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

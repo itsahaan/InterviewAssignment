@@ -1,6 +1,6 @@
-D:\Eclipse\SwagLabs\src\main\java\PageObjects\LoginPageObjects.java
+D:\Eclipse\SwagLabs\src\main\java\pageObjects\LoginPageObjects.java
 D:\Eclipse\SwagLabs\src\main\java\utilities\CustomWebElement.java
-D:\Eclipse\SwagLabs\src\main\java\PageObjects\HomePageObjects.java
+D:\Eclipse\SwagLabs\src\main\java\pageObjects\HomePageObjects.java
 D:\Eclipse\SwagLabs\src\main\java\utilities\TestListener.java
 D:\Eclipse\SwagLabs\src\main\java\utilities\DataProviderUtil.java
 D:\Eclipse\SwagLabs\src\main\java\utilities\BaseClass.java

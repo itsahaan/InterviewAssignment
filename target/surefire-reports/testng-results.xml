@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="14" passed="10" failed="0" skipped="0">
+<testng-results ignored="2" total="12" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-30T21:45:13 IST" name="Suite" finished-at="2024-12-30T21:45:29 IST" duration-ms="16164">
+  <suite started-at="2025-01-02T16:22:20 IST" name="Suite" finished-at="2025-01-02T16:22:28 IST" duration-ms="7943">
     <groups>
     </groups>
-    <test started-at="2024-12-30T21:45:13 IST" name="Test" finished-at="2024-12-30T21:45:29 IST" duration-ms="16164">
+    <test started-at="2025-01-02T16:22:20 IST" name="Test" finished-at="2025-01-02T16:22:28 IST" duration-ms="7943">
       <class name="tests.LoginTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:10 IST" name="setUp" finished-at="2024-12-30T21:45:13 IST" duration-ms="3144" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2025-01-02T16:22:19 IST" name="setUp" finished-at="2025-01-02T16:22:20 IST" duration-ms="1914" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="initializePageObjectClasses()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:13 IST" name="initializePageObjectClasses" finished-at="2024-12-30T21:45:13 IST" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="initializePageObjectClasses()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2025-01-02T16:22:20 IST" name="initializePageObjectClasses" finished-at="2025-01-02T16:22:20 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializePageObjectClasses -->
-        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:14 IST" name="navigateToLoginPage" finished-at="2024-12-30T21:45:17 IST" duration-ms="2128" status="PASS">
+        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2025-01-02T16:22:21 IST" name="navigateToLoginPage" finished-at="2025-01-02T16:22:22 IST" duration-ms="1332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToLoginPage -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:17 IST" name="loginTest" data-provider="loginData" finished-at="2024-12-30T21:45:17 IST" duration-ms="662" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2025-01-02T16:22:22 IST" name="loginTest" data-provider="loginData" finished-at="2025-01-02T16:22:22 IST" duration-ms="278" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -40,11 +40,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:18 IST" name="navigateToLoginPage" finished-at="2024-12-30T21:45:18 IST" duration-ms="113" status="PASS">
+        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2025-01-02T16:22:23 IST" name="navigateToLoginPage" finished-at="2025-01-02T16:22:23 IST" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToLoginPage -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:18 IST" name="loginTest" data-provider="loginData" finished-at="2024-12-30T21:45:18 IST" duration-ms="597" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2025-01-02T16:22:23 IST" name="loginTest" data-provider="loginData" finished-at="2025-01-02T16:22:23 IST" duration-ms="218" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,11 +65,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:18 IST" name="navigateToLoginPage" finished-at="2024-12-30T21:45:19 IST" duration-ms="98" status="PASS">
+        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2025-01-02T16:22:23 IST" name="navigateToLoginPage" finished-at="2025-01-02T16:22:23 IST" duration-ms="36" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToLoginPage -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:19 IST" name="loginTest" data-provider="loginData" finished-at="2024-12-30T21:45:19 IST" duration-ms="564" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2025-01-02T16:22:23 IST" name="loginTest" data-provider="loginData" finished-at="2025-01-02T16:22:23 IST" duration-ms="205" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -90,11 +90,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:19 IST" name="navigateToLoginPage" finished-at="2024-12-30T21:45:19 IST" duration-ms="55" status="PASS">
+        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2025-01-02T16:22:24 IST" name="navigateToLoginPage" finished-at="2025-01-02T16:22:24 IST" duration-ms="39" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToLoginPage -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:19 IST" name="loginTest" data-provider="loginData" finished-at="2024-12-30T21:45:20 IST" duration-ms="750" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2025-01-02T16:22:24 IST" name="loginTest" data-provider="loginData" finished-at="2025-01-02T16:22:24 IST" duration-ms="179" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -115,11 +115,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:20 IST" name="navigateToLoginPage" finished-at="2024-12-30T21:45:20 IST" duration-ms="55" status="PASS">
+        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2025-01-02T16:22:24 IST" name="navigateToLoginPage" finished-at="2025-01-02T16:22:24 IST" duration-ms="37" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToLoginPage -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:20 IST" name="loginTest" data-provider="loginData" finished-at="2024-12-30T21:45:21 IST" duration-ms="632" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2025-01-02T16:22:24 IST" name="loginTest" data-provider="loginData" finished-at="2025-01-02T16:22:24 IST" duration-ms="177" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -140,53 +140,53 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:21 IST" name="navigateToLoginPage" finished-at="2024-12-30T21:45:21 IST" duration-ms="52" status="PASS">
+        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2025-01-02T16:22:24 IST" name="navigateToLoginPage" finished-at="2025-01-02T16:22:24 IST" duration-ms="36" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToLoginPage -->
-        <test-method signature="positiveLoginTestWithLocalStorageCheck()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:21 IST" name="positiveLoginTestWithLocalStorageCheck" finished-at="2024-12-30T21:45:22 IST" duration-ms="864" status="PASS">
+        <test-method signature="positiveLoginTestWithLocalStorageCheck()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2025-01-02T16:22:24 IST" name="positiveLoginTestWithLocalStorageCheck" finished-at="2025-01-02T16:22:24 IST" duration-ms="237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- positiveLoginTestWithLocalStorageCheck -->
-        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:22 IST" name="navigateToLoginPage" finished-at="2024-12-30T21:45:22 IST" duration-ms="64" status="PASS">
+        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2025-01-02T16:22:25 IST" name="navigateToLoginPage" finished-at="2025-01-02T16:22:25 IST" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToLoginPage -->
-        <test-method signature="validateSessionUsernameAfterLogin()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:22 IST" name="validateSessionUsernameAfterLogin" finished-at="2024-12-30T21:45:23 IST" duration-ms="578" status="PASS">
+        <test-method signature="validateSessionUsernameAfterLogin()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2025-01-02T16:22:25 IST" name="validateSessionUsernameAfterLogin" finished-at="2025-01-02T16:22:25 IST" duration-ms="181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSessionUsernameAfterLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2024-12-30T21:45:29 IST" name="tearDown" finished-at="2024-12-30T21:45:29 IST" duration-ms="460" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTests@7c729a55]" started-at="2025-01-02T16:22:28 IST" name="tearDown" finished-at="2025-01-02T16:22:29 IST" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LoginTests -->
       <class name="tests.HomePageTests">
-        <test-method is-config="true" signature="initializePageObjectClasses()[pri:0, instance:tests.HomePageTests@5ffead27]" started-at="2024-12-30T21:45:23 IST" name="initializePageObjectClasses" finished-at="2024-12-30T21:45:23 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="initializePageObjectClasses()[pri:0, instance:tests.HomePageTests@5ffead27]" started-at="2025-01-02T16:22:25 IST" name="initializePageObjectClasses" finished-at="2025-01-02T16:22:25 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializePageObjectClasses -->
-        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.HomePageTests@5ffead27]" started-at="2024-12-30T21:45:23 IST" name="navigateToLoginPage" finished-at="2024-12-30T21:45:23 IST" duration-ms="60" status="PASS">
+        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.HomePageTests@5ffead27]" started-at="2025-01-02T16:22:25 IST" name="navigateToLoginPage" finished-at="2025-01-02T16:22:25 IST" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToLoginPage -->
-        <test-method signature="addItemToCart()[pri:0, instance:tests.HomePageTests@5ffead27]" started-at="2024-12-30T21:45:23 IST" name="addItemToCart" finished-at="2024-12-30T21:45:24 IST" duration-ms="965" status="PASS">
+        <test-method signature="addItemToCart()[pri:0, instance:tests.HomePageTests@5ffead27]" started-at="2025-01-02T16:22:25 IST" name="addItemToCart" finished-at="2025-01-02T16:22:25 IST" duration-ms="333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addItemToCart -->
-        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.HomePageTests@5ffead27]" started-at="2024-12-30T21:45:24 IST" name="navigateToLoginPage" finished-at="2024-12-30T21:45:24 IST" duration-ms="63" status="PASS">
+        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.HomePageTests@5ffead27]" started-at="2025-01-02T16:22:25 IST" name="navigateToLoginPage" finished-at="2025-01-02T16:22:25 IST" duration-ms="39" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToLoginPage -->
-        <test-method signature="removeItemFromCart()[pri:0, instance:tests.HomePageTests@5ffead27]" started-at="2024-12-30T21:45:24 IST" name="removeItemFromCart" finished-at="2024-12-30T21:45:26 IST" duration-ms="2155" status="PASS">
+        <test-method signature="removeItemFromCart()[pri:0, instance:tests.HomePageTests@5ffead27]" started-at="2025-01-02T16:22:25 IST" name="removeItemFromCart" finished-at="2025-01-02T16:22:27 IST" duration-ms="1396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeItemFromCart -->
-        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.HomePageTests@5ffead27]" started-at="2024-12-30T21:45:27 IST" name="navigateToLoginPage" finished-at="2024-12-30T21:45:27 IST" duration-ms="59" status="PASS">
+        <test-method is-config="true" signature="navigateToLoginPage()[pri:0, instance:tests.HomePageTests@5ffead27]" started-at="2025-01-02T16:22:27 IST" name="navigateToLoginPage" finished-at="2025-01-02T16:22:27 IST" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToLoginPage -->
-        <test-method signature="verifyHamburgerMenuItems()[pri:0, instance:tests.HomePageTests@5ffead27]" started-at="2024-12-30T21:45:27 IST" name="verifyHamburgerMenuItems" finished-at="2024-12-30T21:45:29 IST" duration-ms="2177" status="PASS">
+        <test-method signature="verifyHamburgerMenuItems()[pri:0, instance:tests.HomePageTests@5ffead27]" started-at="2025-01-02T16:22:27 IST" name="verifyHamburgerMenuItems" finished-at="2025-01-02T16:22:28 IST" duration-ms="1358" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHamburgerMenuItems -->
